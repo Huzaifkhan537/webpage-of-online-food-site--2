@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        video{
+            background-size: cover;
+        }
+       
+       .cont {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+       }
+       .navbar ul li{
+           display: inline-block;
+           align-items: center;
+           justify-content: space-between;
+       }
+       .center{
+        border: 1px;
+        border-radius: 30px;
+        color: black;
+        text-decoration: none;
+        padding: 0px 10px;
+        margin: 0px 2px;
+        font-family: ;
+       }
+       .dot{
+        font-family:monospace;
+        font-size: small;
+       }
+       .navbar ul li a{
+        color: grey;
+        text-decoration: none;
+       }
+       .food{
+        top: 35%;
+        left: 2%;
+        position: absolute;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+       .food .p{
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align:left;
+       }
+        .menu {
+            position: absolute;
+            margin-top: 50%;
+            margin-left: 75%;
+        }
+        .menu a{
+            text-decoration: none;
+            color:grey;
+        }
+        .menu .q {
+            background-color: white;
+            padding: 25px 100px;
+            border: 1px solid white;
+            border-top-left-radius: 60px;
+            border-bottom-left-radius: 60px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            transition: 0.5s transform ease-in-out;
+            position: relative;
+        }
+
+
+        .menu .w{
+            background-color: white;
+            padding: 25px 100px;
+            border: 1px solid white;
+            border-top-left-radius: 55px;
+            border-bottom-left-radius: 55px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            transition: .5s transform ease-in-out;
+
+        }
+        .menu .e{
+            background-color: white;
+            padding: 25px 100px;
+            border: 1px solid white;
+            border-top-left-radius: 55px;
+            border-bottom-left-radius: 55px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            transition: 0.5s transform ease-in-out;
+
+
+        }
+       
+      .menu :hover{
+        background-color: orangered;
+        color: white;
+        transform: scale(110%);
+      }
+      .order{
+        position: absolute;
+        margin-top: 75%;
+        margin-left: 45%;
+      }
+      .order a{
+        border: 1px;
+        background-color: orangered;
+        padding:13px 50px;
+        border-radius: 20px;
+        color: white;
+        text-decoration:none;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: large;
+        transition: 0.5s transform ease-in-out;
+
+      }
+
+      .order:hover
+      {
+         transform: scale(105%);
+
+      }
+      .navbar ul li a{
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        text-transform: uppercase;
+      }
+      .navbar ul li a:hover{
+        background-color: orangered;
+        border: 1px;
+        border-radius: 30px;
+        color: white;
+      }
+      .o1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+      }
+
+
+        
+    </style>
+   
+</head>
+<body>
+    <div class="cont">
+    <div class="dot">
+    <h1 class="o1">Food <a href="#" class="center"> Center</a></h1>
+  
+</div>
+      <div class="navbar">
+    <ul>
+        <li><a href="#">Breakfast</a></li>
+        <li><a href="#">Lunch</a></li>
+        <li><a href="#">Dinner </a></li>
+        <li><a href="#">Shopping</a></li>
+    </ul>
+</div>
+
+    
+<div class="food">
+    <h1 style="font-size:600%;">food </h1>
+    <h1 style="font-size:600%;" class="x">Center</h1>
+    <P style="font-size:small;" class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quae ea corporis harum,
+         eius consectetur reprehenderit. <br>Consequuntur ex a suscipit voluptatibus in assumenda<br>
+        </P>
+
+</div>
+<div class="menu">
+<p class="q"><a href="#">Grilled Chicken With Vegetables</p><br></a>
+<p class="w"><a href="#">Duck Legs Baked with<br> Apples And Tomatoes</p><br></a>
+<p class="e"><a href="#">Grilled Mutton With<br> Souce</p><br></a>
+
+</div>
+
+<div class="order">
+<a href="#"> $40--------Order Now</a>    
+</div>
+</div>
+
+<div>
+    <video autoplay loop height="100%" width="100%"   >
+        <source src="Fruit Salad - 1019.mp4" type="video/mp4"  >
+    </video>
+</div>
+
+   
+
+
+
+
+</body>
+</html>
